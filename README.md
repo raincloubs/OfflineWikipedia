@@ -1,2 +1,2 @@
-# OfflineWikipedia
-I'm gonna attempt to make this actually worth a damn but rn it's really simple
+# OfflineWikipedia📚
+A Python based CLI application that takes use of [this here library](https://github.com/goldsmith/Wikipedia)(˶˃ ᵕ ˂˶).
