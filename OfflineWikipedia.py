@@ -1,8 +1,9 @@
+# Import modules
 import wikipedia
-import sys
 import os
 import time
 
+# Main function of the program.
 def choosey():
     while True:
         print("Welcome to OfflineWikipedia")
@@ -13,7 +14,7 @@ def choosey():
             while True:
                 try:
                     userinput = input("> ")
-                    if userinput.lower() == "go back to menu":
+                    if userinput.lower() == "go back to menu": # Loops back to the menu
                         os.system('cls')
                         break
                     result = wikipedia.summary(userinput)
@@ -25,7 +26,7 @@ def choosey():
             while True:
                 try:
                     userinput = input("> ")
-                    if userinput.lower() == "go back to menu":
+                    if userinput.lower() == "go back to menu": # Loops back to the menu
                         os.system('cls')
                         break
                     result = wikipedia.search(userinput)
