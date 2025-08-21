@@ -6,7 +6,7 @@ import time
 def choosey():
     while True:
         print("Welcome to OfflineWikipedia")
-        print("Press 1 for Summary \nPress 2 for Pages(It is useless tho) \nPress 3 for Search \nor type 'q' to quit it\n")
+        print("Press 1 for Summary\nPress 2 for Search \nor type 'q' to quit it\n")
         choose_it = input("> ")
         if choose_it == "1":
             os.system('cls')
@@ -18,15 +18,6 @@ def choosey():
                 except Exception as e:
                     print("Something went wrong please try again!", e)
         elif choose_it == "2":
-            os.system('cls')
-            while True:
-                try:
-                    userinput = input("> ")
-                    result = wikipedia.page(userinput)
-                    print(result)
-                except Exception as e:
-                    print("Something went wrong please try again!", e)
-        elif choose_it == "3":
             os.system('cls')
             while True:
                 try:
